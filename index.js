@@ -1,6 +1,5 @@
 import memoize from 'memoize-one';
-import * as mockData from './mockData.js'; // Adjust the path accordingly
-
+import * as mockData from './mockData.js';
 const getLocalizedOptions = memoize((locale, country, intl) => {
   const emptyCountryOption = {
     value: '',
