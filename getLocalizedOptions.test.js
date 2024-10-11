@@ -1,5 +1,5 @@
-import getLocalizedOptions from './index.js'; // Adjust the path accordingly
-import { mockCountries, messages } from './mockData.js'; // Ensure messages are imported correctly
+import getLocalizedOptions from './index.js'; //
+import { mockCountries, messages } from './mockData.js'; 
 
 describe('getLocalizedOptions', () => {
   // Mock Intl
